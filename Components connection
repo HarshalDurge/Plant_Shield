@@ -1,0 +1,25 @@
+Connection 
+
+Arduino Uno1 Pin	Connected Component
+
+A0	Soil Moisture A0
+A4	HTU21D SDA
+A5	HTU21D SCL
+D4	Pump Relay IN
+D5	2-Relay IN1 (fan)
+D6	2-Relay IN2 (misting)
+5V	Soil Sensor, Relays, HTU21D 
+
+Arduino Uno2 Pin	Connected Component
+
+A0	ADXL335 X-axis
+A1	ADXL335 Y-axis
+A2	ADXL335 Z-axis
+A4 (SDA)	BH1750 I2C Data
+A5 (SCL)	BH1750 I2C Clock
+D8	Buzzer
+D9	Servo 1
+D10	Servo 2
+3.3V	ADXL335 Power
+5V	BH1750 Power, optionally Servo Power
+GND	Common ground
